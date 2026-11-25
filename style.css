@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111827;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+.moviecontainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.moviecard {
+  width: 22%;
+  background-color: #1f2937;
+  border-radius: 12px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.moviecard h2 {
+  font-size: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.moviecard p {
+  font-size: 14px;
+  color: #d1d5db;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.moviecard h3 {
+  color: #facc15;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.moviecard img {
+  width: 100%;
+  height: auto;
+}
